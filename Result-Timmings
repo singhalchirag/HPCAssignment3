@@ -1,0 +1,20 @@
+Data		Processes		Rings		Hosts			Time/ring
+
+Int		4			1		localhost		0.001129
+
+Int		4			10		localhost		0.000178
+
+Int		4			1		crunchy1,crunchy3	0.005044
+
+Int		4			10		crunchy1,crunchy3	0.005636
+
+2Mb		4			1		localhost		0.017272
+
+2Mb		4			10		localhost		0.002527
+
+2Mb		4			1		crunchy1,crunchy3	0.122982	1mb=>.06sec=>.015sec(process to process)=>66.6Mbps
+
+2 Mb		4			10		crunchy1,cruchy3	0.079900	1mb=>.04sec=>.01sec(process to process)=>100Mbps
+
+
+
